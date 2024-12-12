@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script src="https://kit.fontawesome.com/e300349723.js" crossorigin="anonymous"></script>
+    <style>
+        body, html {
+            margin: 0.01%;
+            height: 100%;
+            margin-bottom: 2%;
+        }
+        .titles {
+            text-align: center; 
+            border: 2px solid #000000; 
+            background-color: rgb(126, 251, 251); 
+            font-weight: bolder; 
+            font-size:x-large; 
+            margin-top:1%;
+        }
+        .subtitle{
+            font-weight: bold; 
+            font-size:large;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 20px;
+    
+        }
+        .subtitle-date{
+            font-weight: bold; 
+            font-size:large;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 0px;
+            position: absolute;
+            right: 0;
+        }
+        .top-right-image{
+            position: absolute; /*Enables Positioning*/
+            padding: 10px;
+            top: 0; /*Aligns to the top*/
+            right: 0; /*Aligns to the right*/
+        }
+        .top-left-image{
+            position: absolute; /*Enables Positioning*/
+            padding: 10px;
+            top: 0; /*Aligns to the top*/
+            left: 0; /*Aligns to the right*/
+        }
+        .center-text {
+            display: flex;           /* Use Flexbox */
+            justify-content: center; /* Center horizontally */
+            align-items: start;
+            text-align: center;
+            /* height: 100%;            Take full height */
+        }
+        table {
+            width: 100%;
+            /* align-items: center; */
+            margin: 0px auto; /* Center the table */
+            border-collapse: collapse;
+        }
+        th,td {
+            border: 0px solid #000000; /* Border for cells */
+            padding: 2px; /* Spacing inside the cells */
+            font-size: large;  /* Center-align text */
+            text-align: center;  
+        }
+        th{
+            background-color: rgb(175, 189, 184);
+        }
+        td{
+            font-weight:normal;
+        }
+        tr:nth-child(even){
+            background-color: #f2f2f2; /* Alternating row colors */
+        }
+        tr:hover{
+            background-color: #ddd; /* Hover effect for rows */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <div class="center-text">
+            <h2>   UTKARSH | 22MA10067<br>   
+                Mathematics and Computing<br>
+                <i class="fa-solid fa-phone"></i> <a href="tel:+91-9424356023" style="color: black;">Phone</a>&nbsp;&nbsp; 
+                <i class="fa-solid fa-envelope"></i> <a href="mailto:m.bluth@example.com" style="color: black;">Email</a>&nbsp;&nbsp;
+                <i class="fa-brands fa-github"></i> <a href="https://github.com/UtkChaand45" style="color: black;">GitHub</a>&nbsp;&nbsp;
+                <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/utkarsh45/" style="color: black;">LinkedIn</a></h2></div>
+        <img src="./Images/KGP Logo.png" width="100" class="top-left-image"/>
+        <img src="./Images/Utk_PP_Black.jpg" width="95" class="top-right-image"/>
+        <!-- <hr> -->
+    </header>
+    <education>
+        <div class="titles">Education</div>
+        <p style="margin-top: -0.5%;">
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Degree/Exam</th>
+                    <th>Institute</th>
+                    <th>CGPA/Marks</th>
+                </tr>
+                <tr>
+                    <td>2026</td>
+                    <td>4YRS B.S</td>
+                    <td>IIT Kharagpur</td>
+                    <td>8.00/10</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Class XII, CBSE</td>
+                    <td>St. Joseph's School, Skt</td>
+                    <td>96.4%</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Class X, CBSE</td>
+                    <td>St. Joseph's School, Skt</td>
+                    <td>96.4%</td>
+                </tr>
+            </table>
+        </p>
+        
+    </education>
+    <projects>
+        <div class="titles">Projects</div>
+        <p style="margin-top: 1%;">
+            <div2 class="subtitle">Movies Database Website | Open Soft | General Championship 2024 | IIT Kharagpur</div2>
+            <div3 class="subtitle-date">[Mar'24 - Apr'24]</div3>
+            <ul style="margin-top: -1.1%;">
+                <li>Developed the frontend using ReactJS, HTML5, and CSS-tailwind, enhancing user interface with intuitive navigation and responsive design</li>
+                <li>Implemented advanced search functionalities using MongoDB Atlas, including autocomplete, fuzzy search, and semantic search</li>
+                <li>Integrated a recommendation system that suggests movies of certain genres based on user's watch history, elevating personalization</li>
+                <li>Integrated advanced playback features with secure, multi-resolution streaming based on three levels of subscription tiers</li>            
+            </ul>
+        </p>
+        <p>
+            <div2 class="subtitle">Rubik’s Cube Solver | Korf’s IDA Algorithm | C++ Project</div2>
+            <div3 class="subtitle-date">[Apr'23 - May'23]</div3>
+            <ul style="margin-top: -1.1%;">
+                <li>Designed a virtual 3x3 Rubik's Cube in C++ using three distinct class models and standard data structures for efficient simulation</li>
+                <li>Achieved solving times under 3 seconds for cubes scrambled with 8 moves using optimized BFS, DFS, and IDDFS algorithms</li>
+                <li>Implemented Korf's IDA* Algorithm, reducing solving times to under 10 seconds for cubes scrambled with 13 moves</li>          
+            </ul>
+        </p>
+        <p>
+            <div2 class="subtitle">Numerical Methods Lab | IIT Kharagpur</div2>
+            <div3 class="subtitle-date">[Jan'24 - Apr'24]</div3>
+            <ul style="margin-top: -1.1%;">
+                <div4 style="margin-left: -2%;"><i>Under the guidance of Prof Naveen Kumar Garg, implemented computational methods to solve complex mathematical problems</i></div4>
+                <li>Achieved 92% graphical accuracy by utilizing MATLAB to optimize the code for plotting Newton's and Lagrange Interpolating Polynomial</li>
+                <li>Reduced error to 0.8% using numerical algorithms to plot graphs on Boundary Value Problems and Finite Difference methods</li>          
+            </ul>
+        </p>
+        <p>
+            <div2 class="subtitle">Movies Database Website | Open Soft | General Championship 2024 | IIT Kharagpur</div2>
+            <div3 class="subtitle-date">[Mar'24 - Apr'24]</div3>
+            <ul style="margin-top: -1.1%;">
+                <div4 style="margin-left: -2%;"><i>Under the supervision of Prof. Subhadip Dey and Prof Brajesh Kumar Panda, developed an Arduino-based project</i></div4>
+                <li>Utilized a DHT11 sensor, 0.96-inch LCD 162 I2C display, and an Atomization Humidifier; implemented using Arduino IDE with C++ coding</li>
+                <li>Designed circuits using TinkerCad; maintained optimal humidity levels set by the user; received an EX grade for the project</li>          
+            </ul>
+        </p>
+    </projects>
+
+    <competition>
+        <div class="titles">Competition/Conference</div>
+        <p style="margin-top: 1%;">
+            <div2 class="subtitle">National Winner | Data Doyen | Data Analytics Case Study | Passion 2023</div2>
+            <div3 class="subtitle-date">[Dec’23]</div3>
+            <ul style="margin-top: -1.1%;">
+                <li>Employed Python's Numpy and Pandas to clean and preprocess a dataset of 17K+ customers and 300K+ transactions for analysis</li>
+                <li>Utilised Matplotlib and Seaborn on the dataset, revealing key customer behaviours, transaction trends, and offer interactions</li>
+                <li>Provided strategic recommendations for Starbucks, leveraging analytics for business optimisation and improved decision-making</li>         
+            </ul>
+        </p>
+        <p>
+            <div2 class="subtitle">Runners Up | Green Canvas | Megalith 2023 | IIT Kharagpur</div2>
+            <div3 class="subtitle-date">[Mar'23]</div3>
+            <ul style="margin-top: -1.1%;">
+                <li>Developed innovative initiatives for biodiversity hotspot mapping and initiated a collaborative platform for environmental reform</li>
+                <li>Proposed a nationwide college competition to engage students in biodiversity conservation research and initiatives</li>
+                <li>Advocated for local committees, community employment schemes and ad promotions to empower biodiversity conservation efforts</li>          
+            </ul>
+        </p>
+    </competition>
+    
+    <skills>
+        <div class="titles">Skills and Expertise</div>
+        <p style="margin-top: 1.0%;">
+            <ul style="margin-top: -0.5%; font-size: large;">
+                <li><b>Programming Languages</b>: <i>Proficient</i>: C | C++ | Python &nbsp;&nbsp;<i>Familiar</i>: HTML | CSS | JavaScript | SQL | MATLAB
+                <li><b>Libraries</b>: <i>Proficient</i>: C++ Standard Template Library(STL) &nbsp;&nbsp;<i>Familiar</i>: Numpy | Pandas | Matplotlib | Scikit-learn | Seaborn | ReactJS</li>
+                <li><b>Tools/Softwares</b>: <i>Proficient</i>: VS Code | Google Collab | Photoshop | Canva &nbsp;&nbsp;<i>Familiar</i>: FreeCAD | Illustrator | MS Office | Figma</li>         
+            </ul>
+        </p>
+    </skills>
+
+    <coursework>
+        <div class="titles">Coursework Information</div>
+        <p style="margin-top: 1.0%;">
+            <ul style="margin-top: -0.5%; font-size: large;">
+                <li><b>Computer Science</b>: Design & Analysis of Algoriths | Computer Architechture & Orgranisation | Theory of Computations | Combinatorics and Graph Theory</li>
+                <li><b>Mathematics</b>: Optimization Techniques | Linear Algebra | Probability and Statistics | Stochastic Process | Transform Calculus | Applied Computational Methods</li>
+                <li><b>Certifications</b>: Data Structures & Algorithms (AlgoZenith) | Machine Learning Specialization (DeepLearning.ai) | Web Development Bootcamp (Udemy by Angela Yu)</li>         
+            </ul>
+        </p>
+    </coursework>
+
+    <por>
+        <div class="titles">Position of Responsibility</div>
+        <p style="margin-top: 1%;">
+            <div2 class="subtitle">Sponsorship Head | Gopali Youth Welfare Society | IIT Kharagpur</div2>
+            <div3 class="subtitle-date">[Aug'23-Present]</div3>
+            <ul style="margin-top: -1.1%;">
+                <li>Utilized Python tools (Selenium and BeautifulSoup) for LinkedIn scraping to construct an Alumni Database of 1.2K+ Contacts for the NGO</li>
+                <li>Raised INR 9.6M (30% YoY) through various channels such as gift matching, fundraising, alumni outreach, and CSR initiatives</li>
+                <li>Secured an amount of INR 4.7M (23% YoY) within a span of 2 weeks through Gift Matching Program, reaching 3K+ employees</li>
+                <li>Partnered with Pubmatic India for CSR of INR 0.5M and collaborated with Feeding India for hostel yearly food needs of INR 4M</li>         
+                <li>Guided 20 Junior Executive Members in fundraising efforts, targeting over 500 alumni from more than 6 institutes through calling</li>         
+            </ul>
+        </p>
+        <p>
+            <div2 class="subtitle">Secretary | Communiqué | Technology Students' Gymkhana | IIT Kharagpur</div2>
+            <div3 class="subtitle-date">[Aug'23 - Apr'24]</div3>
+            <ul style="margin-top: -1.1%;">
+                <li>Spearheaded the second edition of the Global MUN with a participation of over 300+ students (75% YoY) from 30+ colleges
+                <li>Led a team of 40 students and organised 18+ career-aiding seminars, witnessing a 50% YoY increase, benefiting over 15k students</li>
+                <li>Secured INR 2.5L in funds and goods through corporate deals and sponsorships, effectively supporting event execution and logistics</li>          
+                <li>Coordinated a weeklong Internship and Placement Bootcamp for 500+ students, which involved 100+ mock interviews</li>          
+            </ul>
+        </p>
+
+        <p>
+            <div2 class="subtitle">Junior Associate | International Relations Cell | IIT Kharagpur</div2>
+            <div3 class="subtitle-date">[Feb'23 - Jul'23]</div3>
+            <ul style="margin-top: -1.1%;">
+                <li>Co-organized webinars, including MS/PhD Panel Discussions and GRE/TOEFL sessions, catering to over 5K students; designed newsletters</li>
+                <li>Contributed to the Foreign Training Program, resulting in 223 student offers from prestigious universities for research projects</li>        
+            </ul>
+        </p>
+    </por>
+
+    <awards>
+        <div class="titles">Awards & Acheivements</div>
+        <p style="margin-top: 1.0%;">
+            <ul style="margin-top: -0.5%; font-size: large;">
+                <li>Secured a rank among the top 2.21% candidates in JEE Advanced 2022 and attained a percentile of 99.59 in JEE Mains 2022</li>
+                <li>Attained a peak rating of 1508 on LeetCode and 1450 on CodeChef (handle: utkrystal_45) and solved 300+ medium to hard problems</li>
+                <li>Awarded the Best Volunteer Award (Unit 8) in the NSS Annual Camp 2023 among 600+ NSS Volunteers, exemplifying leadership</li>
+                <li>Qualified for National Talent Search Examination (NTSE), 2018 Level-2 (by CBSE), among the top 0.85% of students of class X in India</li>
+                <li>Served as the School Captain of St. Joseph's School for the academic session 2020-21; topped Informatics Practices in AISSCE 2021</li>         
+            </ul>
+        </p>
+    </awards>
+
+    <Extracirricular>
+        <div class="titles">Extra Curricular Activities</div>
+        <p style="margin-top: 1.0%;">
+            <ul style="margin-top: -0.5%; font-size: large;">
+                <li>Actively participated in Inter Hall Illumination and Rangoli 2024 as a member of Vidyasagar Hall of Residence</li>
+                <li>Member of the Product Design and Squash Team for Vidyasagar Hall of Residence, competing in the General Championships 2023-24</li>
+                <li>Participated in Smart India Hackathon 2023, developing a solution for detecting and reporting fake social media profiles</li>
+                <li>Led my school to Silver in NTPC Debate Competition 2020 and Bronze in GK Quiz Josephest 2018; won Gold in Fine Arts</li>
+                <li>Represented Communiqué, IIT Kharagpur, at UG Induction Programme 2023, speaking in front of an audience of over 2K freshers</li>         
+            </ul>
+        </p>
+    </Extracirricular>
+    <hr style="color: #000000;"/>
+    <footer>
+
+    </footer>
+</body>
+</html>
